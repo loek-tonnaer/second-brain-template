@@ -1,0 +1,15 @@
+# Obsidian: share the vault settings, not per-machine state or plugin code
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+!.obsidian/hotkeys.json
+!.obsidian/snippets/
+!.obsidian/plugins/
+.obsidian/plugins/*/*
+!.obsidian/plugins/*/data.json
+
+.env
+.env.*
+__pycache__/

@@ -1,0 +1,11 @@
+/* Make H2 section headers stand out. Applies to notes with `cssclasses: section-headers`.
+   Reading view renders real <h2> elements; Live Preview / editing view uses .HyperMD-header-2 lines. */
+.section-headers h2,
+.section-headers .HyperMD-header-2 {
+  background: var(--background-modifier-hover) !important;
+  border-left: 5px solid var(--interactive-accent) !important;
+  border-bottom: 1px solid var(--background-modifier-border) !important;
+  border-radius: 4px;
+  padding: 0.3em 0.6em !important;
+  margin-top: 1.2em;
+}

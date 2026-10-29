@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "deny": [],
+    "ask": []
+  },
+  "sandbox": {
+    "enabled": true,
+    "allowUnsandboxedCommands": true
+  }
+}
